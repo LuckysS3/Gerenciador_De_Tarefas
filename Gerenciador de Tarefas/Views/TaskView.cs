@@ -34,6 +34,9 @@ class TaskView
                 case "3":
                     CompleteTask();
                     break;
+                case "4":
+                    RemoverTask();
+                    break;
                 case "5":
                     return;
                 default:
@@ -74,19 +77,44 @@ class TaskView
     }
 
     public void CompleteTask(){
+        Console.Clear();
         Console.WriteLine("---------- Marcar Tarefa Completo -----------\n");
         Console.WriteLine("Digite o Id da tarefa que desaja marca completo");
         if (int.TryParse(Console.ReadLine(), out int id)){
-            var task = _controller.GetTasks().Find(t => t.Id == id);
+            var task = _controller.GetTasks().FirstOrDefault(t => t.Id == id);
 
             if (task != null){
-                _controller.MarkCompleted(id);
-                Console.WriteLine("Tarefa concluída! Pressione ENTER para continuar...");
+                if (task.Status == false){
+                    _controller.MarkCompleted(id);
+                    Console.WriteLine("Tarefa concluída! Pressione ENTER para continuar...");
+                }else {
+                    Console.WriteLine("Erro: A tarefa se encontrada como completo.");
+                }             
             }else{
                 Console.WriteLine("Erro: Nenhuma tarefa encontrada com esse ID.");
             }
         }else{
             Console.WriteLine("Erro: Entrada inválida! Digite um número válido.");
         }
+        Console.ReadLine();
+    }
+    
+    public void RemoverTask(){
+        Console.Clear();
+        Console.WriteLine("---------- REmover tarefa da lista-----------\n");
+        Console.WriteLine("Digite o Id da tarefa que deseja remover da lista");
+        if (int.TryParse(Console.ReadLine(), out int id)){
+            var task = _controller.GetTasks().FirstOrDefault(task => task.Id == id);
+
+            if (task != null){
+                _controller.RemoveTask(id);
+                Console.WriteLine("Tarefa removida! Pressione ENTER para continuar...");
+            }else {
+                Console.WriteLine("Erro: Nenhuma tarefa encontrada com esse ID.");
+            }
+        }else {
+            Console.WriteLine("Erro: Entrada inválida! Digite um número válido.");
+        }
+        Console.ReadLine();
     }
 }

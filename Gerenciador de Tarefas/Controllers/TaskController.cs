@@ -51,4 +51,16 @@ class TaskController
             Salvamento();
         }
     }
+
+    public void RemoveTask(int id){
+        var task = Tasks.FirstOrDefault(t => t.Id == id);
+
+        Tasks.Remove(task);
+
+        for (int i = 0; i < Tasks.Count; i++){
+            Tasks[i].Id = i + 1;
+        }
+
+        Salvamento();
+    }
 }

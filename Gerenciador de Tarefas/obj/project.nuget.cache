@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5YJXsCf6eK4xazmVAqbLZBaVXK5oqSZIjsn4IG5vEGdz52R4cjkb5LFtakjxIiuMaBGK1G0aKydGJVaK70SlFw==",
+  "dgSpecHash": "bKYsiO9wETM=",
   "success": true,
-  "projectFilePath": "/home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
+  "projectFilePath": "/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

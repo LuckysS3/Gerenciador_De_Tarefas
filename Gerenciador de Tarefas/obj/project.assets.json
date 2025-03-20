@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
+      "projectUniqueName": "/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
       "projectName": "Gerenciador de Tarefas",
-      "projectPath": "/home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
+      "projectPath": "/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/Gerenciador de Tarefas.csproj",
       "packagesPath": "/home/luiz/.nuget/packages/",
-      "outputPath": "/home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/obj/",
+      "outputPath": "/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/luiz/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

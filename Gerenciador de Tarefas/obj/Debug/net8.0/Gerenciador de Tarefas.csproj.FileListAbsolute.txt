@@ -28,3 +28,18 @@ D:/Progamaçao/Progama/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tare
 /home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas.pdb
 /home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.genruntimeconfig.cache
 /home/luiz/Documentos/Git/Cs/C#/Projetos/Gerenciador de Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/ref/Gerenciador de Tarefas.dll
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.GeneratedMSBuildEditorConfig.editorconfig
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.AssemblyInfoInputs.cache
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.AssemblyInfo.cs
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.csproj.CoreCompileInputs.cache
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.sourcelink.json
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.dll
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/refint/Gerenciador de Tarefas.dll
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.pdb
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas.deps.json
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas.runtimeconfig.json
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas.dll
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/bin/Debug/net8.0/Gerenciador de Tarefas.pdb
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/Gerenciador de Tarefas.genruntimeconfig.cache
+/home/luiz/Documentos/Git/Gerenciador_De_Tarefas/Gerenciador de Tarefas/obj/Debug/net8.0/ref/Gerenciador de Tarefas.dll
