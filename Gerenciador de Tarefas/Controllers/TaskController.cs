@@ -1,4 +1,6 @@
-﻿using Gerenciador_de_Tarefas.Model;
+﻿using System;
+using System.IO;
+using Gerenciador_de_Tarefas.Model;
 using System.Text.Json;
 
 namespace Gerenciador_de_Tarefas.Controllers;
@@ -6,6 +8,7 @@ namespace Gerenciador_de_Tarefas.Controllers;
 class TaskController
 {
     private readonly string filePath = "task.json";
+
     public List<TaskModel> Tasks { get; private set; }
 
     public TaskController()
@@ -13,21 +16,27 @@ class TaskController
         Tasks = Carregamento();
     }
 
+    private string GetJsonFIlePath (){
+       string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+        return Path.Combine(currentDirectory, "task.json");
+    }
+
     private List<TaskModel> Carregamento()
     {
-        if (!File.Exists(filePath))
+        if (!File.Exists(GetJsonFIlePath()))
         {
             return new List<TaskModel>();
         }
 
-        string json = File.ReadAllText(filePath);
+        string json = File.ReadAllText(GetJsonFIlePath());
         return JsonSerializer.Deserialize<List<TaskModel>>(json) ?? new List<TaskModel>();
     }
 
     private void Salvamento()
     {
         var json = JsonSerializer.Serialize(Tasks, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(filePath ,json);
+        File.WriteAllText(GetJsonFIlePath() ,json);
     }
 
     public void AddTask(string titulo, string descricao)
