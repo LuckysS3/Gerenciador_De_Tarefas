@@ -6,9 +6,7 @@ using System.Text.Json;
 namespace Gerenciador_de_Tarefas.Controllers;
 
 class TaskController
-{
-    private readonly string filePath = "task.json";
-    
+{    
     public List<TaskModel> Tasks { get; private set; }
 
     public TaskController()
