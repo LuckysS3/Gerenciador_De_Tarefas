@@ -17,7 +17,7 @@ class TaskController
     }
 
     private string GetJsonFIlePath (){
-       string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
         return Path.Combine(currentDirectory, "task.json");
     }
